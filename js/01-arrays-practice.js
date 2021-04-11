@@ -69,22 +69,24 @@
 // let leastFavMovies = ['Coming 2 America', 'Dumb and Dumber', 'Test3'];
 
 // movies = movies.concat(leastFavMovies);
-// console.log(movies.reverse())
+// console.log(movies.sort().reverse());
 
 //STEP 10
 // let movies = ['Groundhog Day', 'Total Recall', 'The Matrix', 'Rainman', 'Hacksaw Ridge', 'Greyhound', 'Terminal'];
 // let leastFavMovies = ['Coming 2 America', 'Dumb and Dumber', 'Test3'];
 // movies = movies.concat(leastFavMovies);
 
-// console.log(movies[movies.length-1])
+// console.log(movies[movies.length-1]) // 1st
+// console.log(movies.pop()) // 2nd
 
 //STEP 11
-// let movies = ['Groundhog Day', 'Total Recall', 'The Matrix', 'Rainman', 'Hacksaw Ridge', 'Greyhound', 'Terminal'];
-// let leastFavMovies = ['Coming 2 America', 'Dumb and Dumber', 'Test3'];
+let movies = ['Groundhog Day', 'Total Recall', 'The Matrix', 'Rainman', 'Hacksaw Ridge', 'Greyhound', 'Terminal'];
+let leastFavMovies = ['Coming 2 America', 'Dumb and Dumber', 'Test3'];
 
-// movies = movies.concat(leastFavMovies);
+movies = movies.concat(leastFavMovies);
 
-// console.log(movies[0])
+// console.log(movies[0]) // 1st
+// console.log(movies.shift()) // 2nd
 
 //STEP 12
 // let movies = ['Groundhog Day', 'Total Recall', 'The Matrix', 'Rainman', 'Hacksaw Ridge', 'Greyhound', 'Terminal'];
@@ -97,7 +99,7 @@
 // console.log(leastFavMovies)
 
 //STEP 13
-// movies = [["Movie 1", 1], ["Movie 2", 2], ["Movie 3", 3], ["Movie 4", 4], ["Movie 5", 5]];
+// let movies = [["Movie 1", 1], ["Movie 2", 2], ["Movie 3", 3], ["Movie 4", 4], ["Movie 5", 5]];
 // let newArr;
 
 // SOLUTION 1 WITH NESTED ARRAY
@@ -117,8 +119,9 @@
 // let employees = ['Zak', 'Jessica', 'Mark', 'Fred', 'Sally'];
 
 // function showEmployee(arr) {
+//     console.log('Employees: ');
 //     for(let employee of arr) {
-//         console.log(employee.toUpperCase() + '\n')
+//         console.log(employee.toUpperCase() + '\n');
 //     }
 // }
 
